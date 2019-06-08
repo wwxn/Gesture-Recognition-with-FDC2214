@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections
+-I C:\Users\wxn\Desktop\wxn\user\RTE
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+-I C:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="514" -DSTM32F10X_MD
+-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d "..\lib\src\misc.c"
